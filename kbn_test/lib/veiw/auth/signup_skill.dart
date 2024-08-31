@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:kbn_test/utilities/colors.dart';
 import 'package:kbn_test/utilities/text_style.dart';
 import 'package:kbn_test/utilities/widgets/bg_widg.dart';
-import 'package:kbn_test/utilities/widgets/logintextformfiled.dart';
+import 'package:kbn_test/utilities/widgets/login_textformfiled.dart';
 import 'package:kbn_test/utilities/widgets/next_button.dart';
 import 'package:kbn_test/utilities/widgets/signup_expirenace_card.dart';
 import 'package:kbn_test/utilities/widgets/signup_stage_info.dart';

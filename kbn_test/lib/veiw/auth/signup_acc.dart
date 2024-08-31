@@ -3,7 +3,7 @@ import 'package:kbn_test/utilities/colors.dart';
 import 'package:kbn_test/utilities/const.dart';
 import 'package:kbn_test/utilities/text_style.dart';
 import 'package:kbn_test/utilities/widgets/bg_widg.dart';
-import 'package:kbn_test/utilities/widgets/logintextformfiled.dart';
+import 'package:kbn_test/utilities/widgets/login_textformfiled.dart';
 import 'package:kbn_test/utilities/widgets/signup_stage_info.dart';
 import 'package:kbn_test/veiw/screen/home.dart';
 
@@ -38,7 +38,6 @@ class _SignupAccState extends State<SignupAcc> {
 
   @override
   void dispose() {
-    // Dispose of the controllers when the widget is disposed
     emailController.dispose();
     passwordController.dispose();
     confirmPasswordController.dispose();

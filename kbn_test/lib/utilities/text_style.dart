@@ -14,6 +14,12 @@ class AppTextStyle{
     fontWeight: FontWeight.w500,
     color: black,
   );
+  static const TextStyle logoNameText= TextStyle(
+    fontSize: 20,
+    fontFamily: "Poppins",
+    fontWeight: FontWeight.w600,
+    color: black,
+  );
   static const TextStyle googletext= TextStyle(
     fontSize: 20,
     fontFamily: "Poppins",
@@ -32,10 +38,22 @@ class AppTextStyle{
     fontWeight: FontWeight.w600,
     color: white,
   );
+  static const TextStyle hoomeSubhead= TextStyle(
+    fontSize: 25,
+    fontFamily: "Poppins",
+    fontWeight: FontWeight.w600,
+    color: white,
+  );
   static const TextStyle signin= TextStyle(
     fontSize: 15,
     fontFamily: "Poppins",
     fontWeight: FontWeight.w500,
+    color: white,
+  );
+  static const TextStyle flitertxt= TextStyle(
+    fontSize: 16,
+    fontFamily: "Poppins",
+    fontWeight: FontWeight.w400,
     color: white,
   );
   static const TextStyle companyName= TextStyle(
@@ -49,5 +67,17 @@ class AppTextStyle{
     fontFamily: "Poppins",
     fontWeight: FontWeight.w400,
     color: black,
+  );
+  static const TextStyle tactexthead= TextStyle(
+    fontSize: 24,
+    fontFamily: "Poppins",
+    fontWeight: FontWeight.w400,
+    color: black,
+  );
+  static const TextStyle sideBarTxt= TextStyle(
+    fontSize: 20,
+    fontFamily: "Poppins",
+    fontWeight: FontWeight.w500,
+    color: white,
   );
 }

@@ -21,7 +21,7 @@ Widget EducationCard(context,{educt}) {
         ),
         EducationTextForm(context,data: "Institute"),
         EducationTextForm(context,data: "Year"),
-        EducationTextForm(context,data: "Garde"),
+        EducationTextForm(context,data: "Percentage"),
         EducationTextForm(context,data: "State"),
         
       ],

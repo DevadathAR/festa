@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   go_router: ^14.2.7
+  http: ^1.2.2
 
 dev_dependencies:
   flutter_lints: ^4.0.0
@@ -19,10 +20,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/pana.png
-    - assets/kbn.png
-    - assets/google.png
-    - assets/bg.png
+    - assets/
   fonts:
     - family: Poppins
       fonts:

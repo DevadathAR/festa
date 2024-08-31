@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:kbn_test/utilities/assets_path.dart';
 import 'package:kbn_test/utilities/colors.dart';
 import 'package:kbn_test/utilities/const.dart';
 import 'package:kbn_test/utilities/text_style.dart';
 import 'package:kbn_test/utilities/widgets/bg_widg.dart';
 import 'package:kbn_test/utilities/widgets/error.dart';
-import 'package:kbn_test/utilities/widgets/logintextformfiled.dart';
+import 'package:kbn_test/utilities/widgets/login_textformfiled.dart';
 import 'package:kbn_test/veiw/auth/signup_personal.dart';
 import 'package:kbn_test/veiw/screen/home.dart';
 
@@ -50,7 +51,7 @@ class _LogInPageState extends State<LogInPage> {
                   const SizedBox(
                     height: 20,
                   ),
-                  const Image(image: AssetImage("assets/kbn.png")),
+                  const Image(image: AssetImage(logoPng)),
                   const SizedBox(
                     height: 10,
                   ),
@@ -65,36 +66,7 @@ class _LogInPageState extends State<LogInPage> {
                     welcome,
                     style: AppTextStyle.headertext,
                   ),
-                  const SizedBox(
-                    height: 30,
-                  ),
-                  GestureDetector(onTap: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) {
-                      return ErrorPage("Google");
-                    },));
-                  },
-                    child: Container(
-                      height: 50,
-                      decoration: BoxDecoration(
-                          borderRadius:
-                              const BorderRadius.all(Radius.circular(4)),
-                          border: Border.all(color: Colors.black),
-                          color: logintextbox),
-                      child: const Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Image(image: AssetImage("assets/google.png")),
-                          SizedBox(
-                            width: 5,
-                          ),
-                          Text(
-                            "Google",
-                            style: AppTextStyle.googletext,
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
+                  
                   const SizedBox(
                     height: 30,
                   ),
